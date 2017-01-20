@@ -1,0 +1,41 @@
+
+html {
+  /* Used for sticky footer */
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    
+  padding-top: 40px;
+  padding-bottom: 20px;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+    background-color:darkgrey
+        
+ 
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  padding-top: 10px;
+}
+
+#results{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  background-color: lightcyan;
+  /* Hide the results column by default */
+  display: none;
+}
+.navbar{background-color:blacks}
+
+
+
